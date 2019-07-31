@@ -56,6 +56,7 @@ setup(
     keywords="spliceai_wrapper",
     name="spliceai_wrapper",
     packages=find_packages(include=["spliceai_wrapper"]),
+    entry_points={"console_scripts": "spliceai-wrapper = spliceai_wrapper.__main__:main"},
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/holtgrewe/spliceai_wrapper",

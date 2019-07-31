@@ -1,0 +1,16 @@
+# Access to paths following XGD specification.
+xdg >=3,<4
+
+# VCF I/O
+vcfpy
+pysam
+
+# Nice logging.
+logzero
+
+# Nice progress
+tqdm
+
+# Interval tree queries
+cython
+ncls
