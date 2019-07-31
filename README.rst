@@ -8,7 +8,7 @@ SpliceAI Wrapper
 .. image:: https://img.shields.io/travis/bihealth/spliceai-wrapper.svg
         :target: https://travis-ci.org/bihealth/spliceai-wrapper
 
-[Illumina SpliceAI](https://github.com/Illumina/SpliceAI) is a nice method for predicting the impact of variants on splicing.
+`Illumina SpliceAI <https://github.com/Illumina/SpliceAI>`_ is a nice method for predicting the impact of variants on splicing.
 However, it is computationally very expensive (45k variants/hour on a GPU, a few hundred variants per hour and CPU core).
 
 This project, **SpliceAI Wrapper**, is an attempt to use caching for reducing the number of required predictions.
