@@ -12,6 +12,7 @@ SpliceAI Wrapper
 However, it is computationally very expensive (45k variants/hour on a GPU, a few hundred variants per hour and CPU core).
 
 This project, **SpliceAI Wrapper**, is an attempt to use caching for reducing the number of required predictions.
+Please note that the authors of SpliceAI Wrapper are unrelated to the authors of SpliceAI.
 
 ------------
 Installation
