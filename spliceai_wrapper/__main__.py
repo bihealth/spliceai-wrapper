@@ -151,7 +151,7 @@ def prepare(args):
         os.makedirs(os.path.dirname(args.precomputed_db_path), exist_ok=True)
 
     logger.info("Opening database file %s", args.precomputed_db_path)
-    with closing(sqlite3.connect(args.precomputed_db_path), isolation_level=None) as con:
+    with closing(sqlite3.connect(args.precomputed_db_path, isolation_level=None)) as con:
         sql_kwargs = {"release": args.release, "table_name": "spliceai_scores"}
         sql_script = SQL_CREATE_TABLE % sql_kwargs
         logger.info("Executing %s to create table..." % sql_script)
